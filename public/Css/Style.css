@@ -1,9 +1,29 @@
+html {
+    background-color: #131313;
+}
 body {
     display: block;
     margin: 0px;
 }
-nav {
- color: aliceblue;
- height: 80px;
- width: 100px;
+.nav {
+ display: flex;
+ background-color: black;
+ height: 60px;
+ width: auto;
+}
+
+img.imglogo  {
+    display: flex;
+    align-items: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: left;
+    width: -webkit-fill-available;
+    margin-left: 20px;
 }
