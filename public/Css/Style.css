@@ -1,0 +1,9 @@
+body {
+    display: block;
+    margin: 0px;
+}
+nav {
+ color: aliceblue;
+ height: 80px;
+ width: 100px;
+}
